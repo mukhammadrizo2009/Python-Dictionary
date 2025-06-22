@@ -1,0 +1,18 @@
+user = {
+    "first_name": "G'ani",
+    "last_name": "Abdug'aniyev",
+    "age": "26",
+    "country": "the USA",
+    "phone": "+1 23 412 2341",
+    "email": "gani41@gmail.com"
+}
+
+keys = input("Kalit nomini kiriting!: ")
+
+if keys in user:
+    user.pop(keys)
+    print(user)
+
+else:
+    print("Bunday kalit yo'q!")
+
