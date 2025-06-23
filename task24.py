@@ -1,1 +1,0 @@
-def most_common_char(text: str) -> str:
